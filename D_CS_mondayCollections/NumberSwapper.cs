@@ -18,14 +18,12 @@ namespace NumberSwapper {
 			{5, "five"}, {6, "six"}, {7, "seven"}, {8, "eight"}, {9, "nine"} };
 
 		private static string SwapNumsToNames(string textToChange) {
-			foreach (char c in textToChange) {
-				if (textToChange[textToChange.IndexOf(c)].Equals(' ')) {
-
-				}
-			}
-			return ""; }
+			for (var i = 0; i < textToChange.Length - 3; i++) {
+				if (textToChange.Substring(i, 4).Equals("zero")) Console.WriteLine("Won."); }
+			return "The End."; }
 
 		private static void Main(string[] args) {
+			SwapNumsToNames("zero,one two.three-zero:four;five/zero?six");
 		}
 	}
 }
