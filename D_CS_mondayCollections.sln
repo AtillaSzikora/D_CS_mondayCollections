@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_CS_mondayCollections", "D_CS_mondayCollections\D_CS_mondayCollections.csproj", "{58F04643-905F-4203-9FE1-42662810EFBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSwapper", "D_CS_mondayCollections\NumberSwapper.csproj", "{58F04643-905F-4203-9FE1-42662810EFBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
